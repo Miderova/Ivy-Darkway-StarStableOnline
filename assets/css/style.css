@@ -1,0 +1,35 @@
+@import 'header.css';
+
+:root{
+    --primary: #141313;
+    --light: #F2F2F2;
+    --gray-text: #888E95; 
+    --red: #FF0000;
+    --blue: #0000FF;
+    --green: #00FF00;
+    --blue-start: #41B6E0;
+    --blue-end: #5000A6;
+
+}
+
+html{
+    font-size: 62.5%; /* это равно 10px, так как 1rem = 16px по умолчанию */
+}
+
+body {
+  margin: 0;
+
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem; /* 16px */
+
+  background-color: var(--primary);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
