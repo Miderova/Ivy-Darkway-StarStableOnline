@@ -1,0 +1,20 @@
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+.nav-link{
+    color: var(--light);
+    text-decoration: none;
+    white-space: nowrap; /* предотвращает перенос текста на новую строку */
+
+    &:hover{
+        color: var(--blue);
+        text-decoration: underline;
+    }
+}
